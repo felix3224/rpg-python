@@ -1,0 +1,4 @@
+#No momento não tem nenhum bliblioteca externa, mas no futuro vou colocat o pygame para imagens e sons para ficar legal
+
+# No external dependencies yet - only Python standard library
+# When you add external libraries, run: pip freeze > requirements.txt

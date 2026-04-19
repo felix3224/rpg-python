@@ -7,16 +7,14 @@ class Combat:
     def roll_dice(side: int) -> int:
         """Rolls a dice with the given number of sides (e.g., 20)"""
         return random.randint(1,side)
-
+    #Here is the same thing, dont need of none 
     @staticmethod
     def battle(attacker, defender):
         print(f'[{attacker.name}] is attacking [{defender.name}]!!')
 
         result_dice = Combat.roll_dice(20)
-        #if weapon in attacker.back
-        total_damage = 0 #damage initial go be weapon. i think dont how implement it
-        #else:
-            # total_damage = 0
+        
+        total_damage = 0 
 
         if result_dice == 20:
             print(f'Dice: {result_dice} - Atack critical!!!\n')
