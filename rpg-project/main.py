@@ -4,7 +4,7 @@ from combat    import Combat
 #from inventory import Inventory
 
 #create items (swod and potion) 
-weapon1 = Weapon('Iron Sword', 'A Sword forjed with iron, very carry, because it cut ',10.4, 20, 8)
+weapon1  = Weapon('Iron Sword', 'A Sword forjed with iron, very carry, because it cut ',10.0, 20, 8)
 potion1  = Consumable('Health Potion','Recover your HP, this tastes like grapes.',1.0,10,20)
 
 #create a player

@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from inventory   import Inventory
 
-#because don need of class (ABC)?
+#because don need of class (ABC) because i want to very npc. for say the true, i m with doubt
 @dataclass
 class Character:
     name:  str
