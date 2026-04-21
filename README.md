@@ -102,7 +102,7 @@ You will see:
 
 ## 👥 Working as a Team (GitHub basics)
 
-Since this is your first team project, remember:
+Since this is your first team project, remember this is matter:
 
 1. **Always pull before you push**  
    `git checkout main`
