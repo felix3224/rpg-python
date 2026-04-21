@@ -9,7 +9,7 @@ potion1  = Consumable('Health Potion','Recover your HP, this tastes like grapes.
 
 #create a player
 print("\n--- PLAYER INFO ---")
-player1 = Player('Hiury',100,100,12,18,4,)
+player1 = Player('witalo',100,100,12,18,4,)
 print(player1)# dont can print the player 
 
 #create a enemy
