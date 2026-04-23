@@ -55,14 +55,14 @@ pip install --upgrade pip
 rpg-python/
 ├── README.md          # You are here
 ├── main.py            # Game entry point – creates player, enemy, items, starts combat
-├── character.py       # Defines Character (base), Player, and Enemy (HP, attack, defense)
+├── character.py       # Defines Character (base), Player, and Enemy (HP, atk, defense)
 ├── combat.py          # Dice rolling logic and the battle system (attacker vs defender)
 ├── inventory.py       # Inventory class – add/remove/show items
 ├── items.py           # Item (abstract), Weapon, Consumable – use() method for each
 ```
 
-- **`character.py`** – Contains the `Character` dataclass (HP, attack, defense) and the `Player`/`Enemy` subclasses.  
-- **`combat.py`**    – Handles dice rolls and the turn‑based attack logic (critical hits, misses).  
+- **`character.py`** – Contains the `Character` dataclass (HP, atk, defense) and the `Player`/`Enemy` subclasses.  
+- **`combat.py`**    – Handles dice rolls and the turn‑based atk logic (critical hits, misses).  
 - **`inventory.py`** – Manages a list of `Item` objects (add, remove, display).  
 - **`items.py`**     – Defines items: `Weapon` (damage) and `Consumable` (heal).  
 - **`main.py`**      – The script you run. It creates a sample player, an enemy, some items, and demonstrates combat.
@@ -89,12 +89,12 @@ You will see:
 
 ## 🧭 Roadmap (where we want to go)
 
-- [ ] **XP & Level Up System**         – Gain experience from defeated enemies, level up to increase stats (HP, attack, defense).  
-- [ ] **Equipment System**             – Equip weapons and armor to modify attack/damage and defense.  
+- [ ] **XP & Level Up System**         – Gain experience from defeated enemies, level up to increase stats (HP, atk, defense).  
+- [ ] **Equipment System**             – Equip weapons and armor to modify atk/damage and defense.  
 - [ ] **Graphical Interface (future)** – Move from the console to a GUI (e.g., Pygame or Tkinter).  
 
 ### Stretch goals (ideas for later)
-- [ ] Turn‑based menu with choices (attack / use item / run)  
+- [ ] Turn‑based menu with choices (atk / use item / run)  
 - [ ] Multiple enemy types and a small world map  
 - [ ] Save / load game  
 
