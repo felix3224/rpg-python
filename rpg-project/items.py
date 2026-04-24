@@ -25,5 +25,13 @@ class Consumable(Item):
     #A consumable inhert all the stts of Item, plus healing
     heal_amount: int
 
-    def use(self):
+    def use(self, target):
+        # Aplica a cura
+        target.hp += self.heal_amount
+
+        # Evita ultrapassar o máximo
+        if hasattr(target, "max_hp"):
+            target.hp = min(target.hp, target.max_hp)
+
         print(f'\n 🧃 You drink the "{self.name}"! Recover: {self.heal_amount} HP!\n')
+        print(f'{target.name} HP: {target.hp}/{target.max_hp}\n')
