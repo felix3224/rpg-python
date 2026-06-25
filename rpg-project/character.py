@@ -84,6 +84,7 @@ class Player(Character):
     mana: int = 4
     max_mana: int = 4  # Adicionado para evitar erro no show_status
     level: int = 1
+    gold: int = 0
     backpack: Inventory = field(default_factory=Inventory)
 
     # O método equip agora pertence exclusivamente ao Player
@@ -107,3 +108,4 @@ class Player(Character):
 @dataclass
 class Enemy(Character):
     xp_rewards: int = 10
+    gold_reward: int = 0  # Novo atributo, Now the enemy drop gold 🤑

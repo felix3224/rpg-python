@@ -32,6 +32,12 @@ class Weapon(Item):
     damage: int
 
 
+# Ainda não vou implementar esses equipamentos defesa apenas ou não sei vai depender do tempo
+@dataclass
+class Armor(Item):
+    protection = int
+
+
 @dataclass
 class Consumable(Item):
     # A consumable inhert all the stts of Item, plus healing
